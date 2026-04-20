@@ -1,12 +1,12 @@
 
-package com.example.demo.dto;
+package com.file.dto;
 
 import java.time.LocalDateTime;
 
 import org.springframework.http.ResponseEntity.BodyBuilder;
 import org.springframework.http.ResponseEntity.HeadersBuilder;
 
-import com.example.demo.entity.User;
+import com.file.entity.User;
 
 public class FileResponseDTO {
 

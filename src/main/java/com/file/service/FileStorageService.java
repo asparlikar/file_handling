@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.file.service;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -19,9 +19,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.example.demo.Repository.FileRepository;
-import com.example.demo.entity.FileEntity;
-import com.example.demo.entity.User;
+import com.file.Repository.FileRepository;
+import com.file.entity.FileEntity;
+import com.file.entity.User;
 
 @Service
 public class FileStorageService {

@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.file.controller;
 
 import java.io.IOException;
 import java.net.http.HttpHeaders;
@@ -19,11 +19,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.example.demo.Repository.FileRepository;
-import com.example.demo.dto.FileResponseDTO;
-import com.example.demo.entity.FileEntity;
-import com.example.demo.entity.User;
-import com.example.demo.service.FileStorageService;
+import com.file.Repository.FileRepository;
+import com.file.dto.FileResponseDTO;
+import com.file.entity.FileEntity;
+import com.file.entity.User;
+import com.file.service.FileStorageService;
 
 @RestController
 @RequestMapping("/api/files")

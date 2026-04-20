@@ -1,4 +1,4 @@
-package com.example.demo.Repository;
+package com.file.Repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.entity.FileEntity;
+import com.file.entity.FileEntity;
 
 @Repository
 public interface FileRepository extends JpaRepository<FileEntity, Long> {
