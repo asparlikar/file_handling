@@ -1,0 +1,29 @@
+name : ajinkya sunil parlikar
+college : MGM's Jawaharlal Nehru Engineering college. Chatrapathi Sambhajinagar.
+CGPA: 8.00
+contact: 8180850759
+
+hsc : 64% 
+ssc: 94%
+
+Ielts : 6.5 
+technical skills: 
+JAVA , Springboot , Mongodb ,sql , React js.
+
+Experience:
+ 
+Internship in Robonist Tech SOlutions , Chatrapati sambhaji nagar.
+There I built a responsive webapp using react js. where user can book trips.
+
+Tata Elxsi Ltd;
+Worked on springboot . where 
+1) I made microservice to verify migrated data from two different cloud platforms in particular timestamp.
+2) handled tickets from clients for that I used to debug the code and solve the error or exception at particular point.
+
+
+
+
+
+
+
+

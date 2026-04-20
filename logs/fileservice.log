@@ -1,0 +1,235 @@
+2026-03-17T22:14:58.722+05:30  WARN 14524 --- [File] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d23h26m899ms122µs600ns).
+2026-03-17T22:16:08.870+05:30  WARN 14524 --- [File] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+2026-03-17T22:22:21.697+05:30  INFO 14524 --- [File] [RMI TCP Connection(411)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-03-17T22:22:22.387+05:30  INFO 14524 --- [File] [RMI TCP Connection(411)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-17T22:22:22.600+05:30  INFO 14524 --- [File] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-17T22:22:22.781+05:30  INFO 14524 --- [File] [RMI TCP Connection(411)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:22:22.965+05:30  INFO 14524 --- [File] [RMI TCP Connection(411)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-17T22:22:23.053+05:30  INFO 14524 --- [File] [RMI TCP Connection(411)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-17T22:22:34.333+05:30  INFO 5304 --- [File] [main] com.example.demo.FileApplication         : Starting FileApplication using Java 21.0.8 with PID 5304 (C:\Users\HP\Desktop\New folder (2)\File\target\classes started by HP in C:\Users\HP\Desktop\New folder (2)\File)
+2026-03-17T22:22:34.353+05:30 DEBUG 5304 --- [File] [main] com.example.demo.FileApplication         : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-17T22:22:34.375+05:30  INFO 5304 --- [File] [main] com.example.demo.FileApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T22:22:38.148+05:30  INFO 5304 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T22:22:38.556+05:30  INFO 5304 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 358 ms. Found 1 JPA repository interface.
+2026-03-17T22:22:40.839+05:30  INFO 5304 --- [File] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-17T22:22:40.889+05:30  INFO 5304 --- [File] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T22:22:40.890+05:30  INFO 5304 --- [File] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-17T22:22:41.083+05:30  INFO 5304 --- [File] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 6424 ms
+2026-03-17T22:22:41.699+05:30  INFO 5304 --- [File] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-17T22:22:41.930+05:30  INFO 5304 --- [File] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-17T22:22:43.433+05:30  INFO 5304 --- [File] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T22:22:43.564+05:30  INFO 5304 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-17T22:22:44.034+05:30  INFO 5304 --- [File] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a7db5a
+2026-03-17T22:22:44.040+05:30  INFO 5304 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-17T22:22:44.297+05:30  INFO 5304 --- [File] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/filestore_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: filestore_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-17T22:22:46.628+05:30  INFO 5304 --- [File] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-17T22:22:46.899+05:30  INFO 5304 --- [File] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:22:47.117+05:30  INFO 5304 --- [File] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-17T22:22:47.537+05:30  INFO 5304 --- [File] [main] c.e.demo.service.FileStorageService      : Initializing FileStorageService...
+2026-03-17T22:22:47.538+05:30  INFO 5304 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory path: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:22:47.540+05:30  INFO 5304 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory is ready: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:22:47.622+05:30  WARN 5304 --- [File] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-17T22:22:48.425+05:30  INFO 5304 --- [File] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-17T22:22:48.439+05:30  INFO 5304 --- [File] [main] com.example.demo.FileApplication         : Started FileApplication in 17.956 seconds (process running for 20.482)
+2026-03-17T22:23:47.340+05:30  INFO 5304 --- [File] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-17T22:23:47.341+05:30  INFO 5304 --- [File] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-17T22:23:47.348+05:30  INFO 5304 --- [File] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-03-17T22:23:47.569+05:30  WARN 5304 --- [File] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+2026-03-17T22:25:26.229+05:30  INFO 5304 --- [File] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-03-17T22:25:26.473+05:30  INFO 5304 --- [File] [RMI TCP Connection(11)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-17T22:25:26.515+05:30  INFO 5304 --- [File] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-17T22:25:26.570+05:30  INFO 5304 --- [File] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:25:26.618+05:30  INFO 5304 --- [File] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-17T22:25:26.701+05:30  INFO 5304 --- [File] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-17T22:25:35.544+05:30  INFO 14284 --- [File] [main] com.example.demo.FileApplication         : Starting FileApplication using Java 21.0.8 with PID 14284 (C:\Users\HP\Desktop\New folder (2)\File\target\classes started by HP in C:\Users\HP\Desktop\New folder (2)\File)
+2026-03-17T22:25:35.551+05:30 DEBUG 14284 --- [File] [main] com.example.demo.FileApplication         : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-17T22:25:35.554+05:30  INFO 14284 --- [File] [main] com.example.demo.FileApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T22:25:37.826+05:30  INFO 14284 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T22:25:38.031+05:30  INFO 14284 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173 ms. Found 1 JPA repository interface.
+2026-03-17T22:25:39.218+05:30  INFO 14284 --- [File] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-17T22:25:39.261+05:30  INFO 14284 --- [File] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T22:25:39.265+05:30  INFO 14284 --- [File] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-17T22:25:39.404+05:30  INFO 14284 --- [File] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3643 ms
+2026-03-17T22:25:39.932+05:30  INFO 14284 --- [File] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-17T22:25:40.163+05:30  INFO 14284 --- [File] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-17T22:25:42.429+05:30  INFO 14284 --- [File] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T22:25:42.546+05:30  INFO 14284 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-17T22:25:43.083+05:30  INFO 14284 --- [File] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@158e6fc2
+2026-03-17T22:25:43.089+05:30  INFO 14284 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-17T22:25:43.527+05:30  INFO 14284 --- [File] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/filestore_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: filestore_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-17T22:25:46.712+05:30  INFO 14284 --- [File] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-17T22:25:46.997+05:30  INFO 14284 --- [File] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:25:47.358+05:30  INFO 14284 --- [File] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-17T22:25:48.020+05:30  INFO 14284 --- [File] [main] c.e.demo.service.FileStorageService      : Initializing FileStorageService...
+2026-03-17T22:25:48.021+05:30  INFO 14284 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory path: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:25:48.023+05:30  INFO 14284 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory is ready: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:25:48.145+05:30  WARN 14284 --- [File] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-17T22:25:49.381+05:30  INFO 14284 --- [File] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-17T22:25:49.402+05:30  INFO 14284 --- [File] [main] com.example.demo.FileApplication         : Started FileApplication in 15.375 seconds (process running for 18.818)
+2026-03-17T22:26:46.659+05:30  INFO 14284 --- [File] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-17T22:26:46.660+05:30  INFO 14284 --- [File] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-17T22:26:46.664+05:30  INFO 14284 --- [File] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-17T22:26:46.820+05:30  WARN 14284 --- [File] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+2026-03-17T22:30:08.829+05:30  INFO 14284 --- [File] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-03-17T22:30:09.862+05:30  INFO 14284 --- [File] [RMI TCP Connection(11)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-17T22:30:09.976+05:30  INFO 14284 --- [File] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-17T22:30:10.095+05:30  INFO 14284 --- [File] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:30:10.197+05:30  INFO 14284 --- [File] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-17T22:30:10.358+05:30  INFO 14284 --- [File] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-17T22:30:18.898+05:30  INFO 3956 --- [File] [main] com.example.demo.FileApplication         : Starting FileApplication using Java 21.0.8 with PID 3956 (C:\Users\HP\Desktop\New folder (2)\File\target\classes started by HP in C:\Users\HP\Desktop\New folder (2)\File)
+2026-03-17T22:30:18.904+05:30 DEBUG 3956 --- [File] [main] com.example.demo.FileApplication         : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-17T22:30:18.907+05:30  INFO 3956 --- [File] [main] com.example.demo.FileApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T22:30:20.461+05:30  INFO 3956 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T22:30:20.592+05:30  INFO 3956 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2026-03-17T22:30:21.578+05:30  INFO 3956 --- [File] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-17T22:30:21.609+05:30  INFO 3956 --- [File] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T22:30:21.611+05:30  INFO 3956 --- [File] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-17T22:30:21.763+05:30  INFO 3956 --- [File] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2704 ms
+2026-03-17T22:30:22.226+05:30  INFO 3956 --- [File] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-17T22:30:22.388+05:30  INFO 3956 --- [File] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-17T22:30:23.847+05:30  INFO 3956 --- [File] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T22:30:23.982+05:30  INFO 3956 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-17T22:30:24.471+05:30  INFO 3956 --- [File] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@591e5fd4
+2026-03-17T22:30:24.477+05:30  INFO 3956 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-17T22:30:24.742+05:30  INFO 3956 --- [File] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/filestore_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: filestore_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-17T22:30:26.840+05:30  INFO 3956 --- [File] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-17T22:30:27.067+05:30  INFO 3956 --- [File] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:30:27.325+05:30  INFO 3956 --- [File] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-17T22:30:27.752+05:30  INFO 3956 --- [File] [main] c.e.demo.service.FileStorageService      : Initializing FileStorageService...
+2026-03-17T22:30:27.753+05:30  INFO 3956 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory path: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:30:27.755+05:30  INFO 3956 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory is ready: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:30:27.832+05:30  WARN 3956 --- [File] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-17T22:30:28.792+05:30  INFO 3956 --- [File] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-17T22:30:28.813+05:30  INFO 3956 --- [File] [main] com.example.demo.FileApplication         : Started FileApplication in 11.026 seconds (process running for 13.088)
+2026-03-17T22:30:35.923+05:30  INFO 3956 --- [File] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-17T22:30:35.924+05:30  INFO 3956 --- [File] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-17T22:30:35.928+05:30  INFO 3956 --- [File] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-17T22:34:15.780+05:30  INFO 3956 --- [File] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-03-17T22:34:15.791+05:30  INFO 3956 --- [File] [RMI TCP Connection(11)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-17T22:34:15.804+05:30  INFO 3956 --- [File] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-17T22:34:15.817+05:30  INFO 3956 --- [File] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:34:15.827+05:30  INFO 3956 --- [File] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-17T22:34:15.845+05:30  INFO 3956 --- [File] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-17T22:34:33.498+05:30  INFO 8780 --- [File] [main] com.example.demo.FileApplication         : Starting FileApplication using Java 21.0.8 with PID 8780 (C:\Users\HP\Desktop\New folder (2)\File\target\classes started by HP in C:\Users\HP\Desktop\New folder (2)\File)
+2026-03-17T22:34:33.509+05:30 DEBUG 8780 --- [File] [main] com.example.demo.FileApplication         : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-17T22:34:33.511+05:30  INFO 8780 --- [File] [main] com.example.demo.FileApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T22:34:36.859+05:30  INFO 8780 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T22:34:37.001+05:30  INFO 8780 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interface.
+2026-03-17T22:34:38.225+05:30  INFO 8780 --- [File] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-17T22:34:38.260+05:30  INFO 8780 --- [File] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T22:34:38.261+05:30  INFO 8780 --- [File] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-17T22:34:38.386+05:30  INFO 8780 --- [File] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4338 ms
+2026-03-17T22:34:38.837+05:30  INFO 8780 --- [File] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-17T22:34:39.025+05:30  INFO 8780 --- [File] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-17T22:34:40.272+05:30  INFO 8780 --- [File] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T22:34:40.534+05:30  INFO 8780 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-17T22:34:40.971+05:30  INFO 8780 --- [File] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6eaf030c
+2026-03-17T22:34:40.976+05:30  INFO 8780 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-17T22:34:41.255+05:30  INFO 8780 --- [File] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/filestore_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: filestore_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-17T22:34:43.318+05:30  INFO 8780 --- [File] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-17T22:34:43.487+05:30  INFO 8780 --- [File] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:34:43.713+05:30  INFO 8780 --- [File] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-17T22:34:44.114+05:30  INFO 8780 --- [File] [main] c.e.demo.service.FileStorageService      : Initializing FileStorageService...
+2026-03-17T22:34:44.115+05:30  INFO 8780 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory path: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:34:44.116+05:30  INFO 8780 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory is ready: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:34:44.194+05:30  WARN 8780 --- [File] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-17T22:34:44.965+05:30  INFO 8780 --- [File] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-17T22:34:44.979+05:30  INFO 8780 --- [File] [main] com.example.demo.FileApplication         : Started FileApplication in 16.763 seconds (process running for 24.925)
+2026-03-17T22:34:49.491+05:30  INFO 8780 --- [File] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-17T22:34:49.492+05:30  INFO 8780 --- [File] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-17T22:34:49.497+05:30  INFO 8780 --- [File] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-17T22:38:14.044+05:30  INFO 8780 --- [File] [http-nio-8080-exec-5] c.e.demo.service.FileStorageService      : Received file upload request: originalFileName=resume.txt, size=711 bytes, contentType=text/plain
+2026-03-17T22:38:14.065+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-5] c.e.demo.service.FileStorageService      : Validating file: name=resume.txt, size=711, contentType=text/plain
+2026-03-17T22:38:14.069+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-5] c.e.demo.service.FileStorageService      : File validation successful: resume.txt
+2026-03-17T22:38:14.070+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-5] c.e.demo.service.FileStorageService      : File validation passed for: resume.txt
+2026-03-17T22:38:14.088+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-5] c.e.demo.service.FileStorageService      : Extracted file extension: txt from resume.txt
+2026-03-17T22:38:14.103+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-5] c.e.demo.service.FileStorageService      : Generated stored filename: ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:38:14.131+05:30  INFO 8780 --- [File] [http-nio-8080-exec-5] c.e.demo.service.FileStorageService      : File saved to disk: resume.txt -> C:\Users\HP\Desktop\New folder (2)\File\uploads\ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:38:14.842+05:30  INFO 8780 --- [File] [http-nio-8080-exec-5] c.e.demo.service.FileStorageService      : File metadata saved to DB: id=1, originalFileName=resume.txt, storedFileName=ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:41:47.669+05:30  INFO 8780 --- [File] [http-nio-8080-exec-9] c.e.demo.service.FileStorageService      : File download requested: fileId=1
+2026-03-17T22:41:47.829+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-9] c.e.demo.service.FileStorageService      : File metadata found: originalFileName=resume.txt, storedFileName=ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:41:47.830+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-9] c.e.demo.service.FileStorageService      : Resolved file path: C:\Users\HP\Desktop\New folder (2)\File\uploads\ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:41:47.839+05:30  INFO 8780 --- [File] [http-nio-8080-exec-9] c.e.demo.service.FileStorageService      : File ready for download: fileId=1, path=C:\Users\HP\Desktop\New folder (2)\File\uploads\ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:42:32.198+05:30  INFO 8780 --- [File] [http-nio-8080-exec-10] c.e.demo.service.FileStorageService      : File download requested: fileId=1
+2026-03-17T22:42:32.208+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-10] c.e.demo.service.FileStorageService      : File metadata found: originalFileName=resume.txt, storedFileName=ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:42:32.209+05:30 DEBUG 8780 --- [File] [http-nio-8080-exec-10] c.e.demo.service.FileStorageService      : Resolved file path: C:\Users\HP\Desktop\New folder (2)\File\uploads\ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:42:32.211+05:30  INFO 8780 --- [File] [http-nio-8080-exec-10] c.e.demo.service.FileStorageService      : File ready for download: fileId=1, path=C:\Users\HP\Desktop\New folder (2)\File\uploads\ab308100-f810-47c8-b494-e4400b9ba4b7.txt
+2026-03-17T22:52:58.205+05:30  INFO 3304 --- [File] [main] com.example.demo.FileApplicationTests    : Starting FileApplicationTests using Java 21.0.8 with PID 3304 (started by HP in C:\Users\HP\Desktop\New folder (2)\File)
+2026-03-17T22:52:58.210+05:30 DEBUG 3304 --- [File] [main] com.example.demo.FileApplicationTests    : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-17T22:52:58.213+05:30  INFO 3304 --- [File] [main] com.example.demo.FileApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T22:53:00.454+05:30  INFO 3304 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T22:53:00.676+05:30  INFO 3304 --- [File] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interface.
+2026-03-17T22:53:01.880+05:30  INFO 3304 --- [File] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-17T22:53:02.114+05:30  INFO 3304 --- [File] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-17T22:53:03.976+05:30  INFO 3304 --- [File] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T22:53:04.077+05:30  INFO 3304 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-17T22:53:04.722+05:30  INFO 3304 --- [File] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37142579
+2026-03-17T22:53:04.729+05:30  INFO 3304 --- [File] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-17T22:53:05.216+05:30  INFO 3304 --- [File] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/filestore_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: filestore_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-17T22:53:07.365+05:30  INFO 3304 --- [File] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-17T22:53:07.605+05:30  INFO 3304 --- [File] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:53:07.875+05:30  INFO 3304 --- [File] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-17T22:53:08.441+05:30  INFO 3304 --- [File] [main] c.e.demo.service.FileStorageService      : Initializing FileStorageService...
+2026-03-17T22:53:08.442+05:30  INFO 3304 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory path: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:53:08.444+05:30  INFO 3304 --- [File] [main] c.e.demo.service.FileStorageService      : Upload directory is ready: C:\Users\HP\Desktop\New folder (2)\File\uploads
+2026-03-17T22:53:08.655+05:30  WARN 3304 --- [File] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-17T22:53:09.882+05:30  INFO 3304 --- [File] [main] com.example.demo.FileApplicationTests    : Started FileApplicationTests in 12.507 seconds (process running for 16.522)
+2026-03-17T22:53:11.140+05:30  INFO 3304 --- [File] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T22:53:11.149+05:30  INFO 3304 --- [File] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-17T22:53:11.173+05:30  INFO 3304 --- [File] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-17T23:54:05.943+05:30  INFO 8780 --- [File] [RMI TCP Connection(102)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
